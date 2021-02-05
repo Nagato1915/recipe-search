@@ -1,0 +1,26 @@
+
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90vw;
+  margin: 7rem auto 0;
+  gap: 2rem;
+}
+
+
+.recipe {
+  border-radius: .5rem;
+  box-shadow: 0 4px 2px 2px rgba(13, 32, 139, 0.342);
+  text-align: center;
+  background: rgb(208, 218, 248);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.recipe a {
+  color: #000;
+  text-decoration: none;
+}
+
